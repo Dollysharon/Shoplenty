@@ -1,0 +1,77 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Nested unordered list-microsoft explorer</title>
+
+  <style>
+    /* Style for all unordered lists */
+    ul {
+      list-style-type: square; /* changes bullet style */
+      margin-left: 20px;       /* adds indentation */
+      font-family: Arial, sans-serif;
+      font-size: 16px;
+    }
+
+    /* First-level list items */
+    ul > li {
+      color: #2c3e50; /* dark text color */
+      margin: 5px 0;
+    }
+
+    /* Second-level nested list */
+    ul ul {
+      list-style-type: circle;
+      color: #1abc9c;
+    }
+
+    /* Third-level nested list */
+    ul ul ul {
+      list-style-type: disc;
+      color: #e67e22;
+    }
+  </style>
+</head>
+<body>
+
+ <!-- Main unordered list -->
+<ul>
+  <!-- Main list item -->
+  <li>Morning Kumquat Delicacies
+    <!-- First level of nested list -->
+    <ul>
+      <!-- First sub-category -->
+      <li>Hot Dishes
+        <!-- Second level of nested list -->
+        <ul>
+          <li>Kumquat omelet</li>
+          
+          <!-- Nested item with its own nested list -->
+          <li>Kumquat waffles
+            <!-- Third level of nested list -->
+            <ul>
+              <li>Country style</li>
+              <li>Belgian</li>
+            </ul>
+          </li>
+        </ul>
+      </li>
+      
+      <!-- Second sub-category -->
+      <li>Cold Dishes
+        <!-- Second level of nested list -->
+        <ul>
+          <li>Kumquats and cornflakes</li>
+          <li>Pickled Kumquats</li>
+          <li>Diced Kumquats</li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+</ul>
+
+  
+</body>
+</html>
